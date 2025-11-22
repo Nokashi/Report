@@ -1,4 +1,3 @@
-
 # LaTeX build files
 *.aux
 *.log
@@ -9,15 +8,20 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
-*.synctex.gz(busy)
+*.synctex(busy)
 *.run.xml
 *.bbl
 *.blg
 
-# Editor backup files
+# latexmk specific garbage
+*.dvi
+*-converted-to.*
+*.xdv
+
+# Editor backups
 *~
 *.bak
 
-# OS garbage
+# OS
 .DS_Store
 Thumbs.db
