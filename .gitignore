@@ -15,6 +15,7 @@
 *.dvi
 *.xdv
 *-converted-to.*
+archive_signing.tex 
 
 # biblatex / biber
 *.bcf
